@@ -717,9 +717,29 @@ footer .containerr {
 }
 .left_content {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
     flex-wrap: wrap;
+}
+.right_content h2
+{
+  color: #06676f;
+  padding: 1rem 0;
+}
+
+.contact_icons span i
+{
+  font-size: 30px;
+  color: #055a62;
+    padding: 0 6px;
+}
+.contact_icons{
+  padding-top: 10px;
+}
+
+.drop_message h2
+{
+  color: #06676f;
 }
 .sendnow a {
     text-decoration: none;
@@ -739,6 +759,9 @@ footer .containerr {
 }
 .drop_message {
     width: 40%;
+    box-shadow: 7px 7px 10px gray;
+    padding: 20px;
+    border-radius: 10px;
 }
 .formdata {
     margin-top: 12px;
@@ -748,7 +771,7 @@ footer .containerr {
 }
 .formdata input, textarea {
     width: 100%;
-    padding: 10px 6px;
+    padding: 10px 10px;
     border: unset;
     margin: 6px 0;
     border-radius: 6px;
